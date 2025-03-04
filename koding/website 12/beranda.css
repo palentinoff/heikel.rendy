@@ -1,0 +1,51 @@
+#header{
+    width: 100%;
+    height: 150px;
+    background-color: darkblue;
+}
+#menu-bar{
+    width: 100%;
+    height: 50px;
+    background-color: skyblue;
+}
+#pemilik{
+    color: white;
+    padding: 10px;
+}
+#daftar-menu{
+    display: inline-flex;
+}
+.menu{
+    padding: 10px;
+    list-style: none;
+    width: 140px;
+    text-align: center;
+}
+.menu:hover{
+    background: yellow;
+}
+#daftar-artikel{
+    display: none;
+}
+#open-artikel:hover #daftar-artikel{
+    display: block;
+}
+.sub-artikel:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    
+    
+}
+.sub-artikel{
+    list-style: none;
+    margin-left: -20px;
+    padding-top: 15px;
+}
+.kontent{
+    width: 100%;
+    height: 1000px;
+    background-color: gray;
+}
